@@ -3,10 +3,10 @@ const buildHTML = (XHR) => {
   const html = `
     <div class="post">
       <div class="post-date">
-        投稿日時：${post.created_at}
+        投稿日時：${item.created_at}
       </div>
       <div class="post-content">
-        ${post.content}
+        ${item.content}
       </div>
     </div>`;
   return html;
